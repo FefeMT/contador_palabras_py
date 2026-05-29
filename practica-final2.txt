@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------------
+Problematica:
+    "Una compañia nos pide que coordinemos planos en cms con maquinarias que estan en pulgadas"
+-------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------
+Algoritmo:
+    1. Definir el valor de las pulgadas en relación a los centimetros
+    2. Solicitar medida a convertir
+    3. Realizar la conversiòn
+    4. Mostrar el resultado
+-------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------
+Pseudocodigo:
+
+Inicio
+    #Paso 1: Definir el valor de la pulgada en relacion a los centimetros
+        pulgada = X
+
+    # Paso 2: Solicitar medidas a convertir
+        medida = Mostrar: "Ingrese las medidas a convertir: "
+
+    # Paso 3: Realizar la conversiòn
+        resultado = medida/pulgada
+
+    # Paso 4: Mostrar el resultado
+        Mostrar: "La medida de la pieza en pulgadas es: ", resultado
+Fin
+-------------------------------------------------------------------------------------
