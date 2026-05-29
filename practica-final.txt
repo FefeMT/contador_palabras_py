@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------------
+Problematica:
+    "SuperTech esta perdiendo plata porque en las transacciones desde moneda internacional hay muchos errores del personal al realizar los calculos a mano para pasar de Euro a Peso y Dolar a Peso para los pagos de importaciones"
+-------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------
+Algoritmo:
+    1. Definir el valor del Euro y Dolar en respecto al Peso
+    2. Solicitar al usuario el tipo de conversión (Euro a Peso o Dolar a Peso)
+    3. Solicitar monto a convertir
+    4. Realizar la conversiòn
+    5. Mostrar el resultado
+-------------------------------------------------------------------------------------
+
+Pseudocodigo:
+
+Inicio
+    #Paso 1: Definir el valor del Euro y Dolar en respecto al Peso
+        Definir tipo_cambio_eur_pes = X
+        Definir tipo_cambio_usd_pes = X
+
+    # Paso 2: Solicitar al usuario el tipo de conversión (Euro a Peso o Dolar a Peso)
+        moneda = Mostrar: "Ingrese la moneda origen para convertir (EUR/USD): " 
+
+    # Paso 3: Solicitar monto a convertir
+        monto = Mostrar: "Ingrese el monto a convertir: "
+
+    # Paso 4: Realizar la conversiòn
+    Si moneda == EUR
+        total = monto * tipo_cambio_eur_pes
+    Si moneda == USD
+        total = monto * tipo_cambio_usd_pes
+
+    # Paso 5: Mostrar el resultado
+        Mostrar: "$" + monto + " " + moneda + " = $" + total + " pesos."
+
