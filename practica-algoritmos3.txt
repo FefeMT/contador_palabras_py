@@ -1,0 +1,21 @@
+Problematica:
+    "El usuario quiere saber si puede entrar en la discoteca segun la edad del cliente"
+---------------------------------------------------------------------------------
+
+Algoritmo:
+1. Solicitar al usuario que ingrese la edad del cliente
+2. Evaluar si la edad cumple con el requisito de ingreso a la discoteca
+3. Mostrarle a l usuario si el cliente puede o no entrar a la discoteca
+---------------------------------------------------------------------------------
+
+Pseudocodigo:
+    // Paso 1: Solicitar al usuario que ingrese la edad del cliente
+        Mostrar: "Ingrese la edad del cliente: " y guardarlo en la variable edad
+    // Paso 2: Verificar si la edad es suficiente para entrar
+        Si edad >= 18
+            asignar a la variable permitido el valor True
+        Si edad < 18
+            asignar a la variable permitido el valor False
+    // Paso 3: Informarle al usuario el resultado
+        Mostrar: "El cliente NO/SI puede entrar a la discoteca"
+Fin
